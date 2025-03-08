@@ -11,7 +11,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Docker Build
-        run: docker build -t Syed-Irfaan?ml-model-22it048 .
+        run: docker build -t Syed-Irfaan-ml-model-22it048 .
 
       - name: Docker Images
         run: docker images
